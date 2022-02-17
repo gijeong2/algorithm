@@ -1,8 +1,14 @@
 
-### 자료구조 
-[스택] (https://github.com/dev-gjkim/algorithm/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%8A%A4%ED%83%9D)
-[큐] (https://github.com/dev-gjkim/algorithm/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%81%90)
+#### 자료구조 
+* 스택
+* 큐
+* 연결리스트
+* 힙
+* 해시
+* 그래프
+* 트리
 
+* * *
 
 #### 입력이 100 이하인 경우
 * 완전 탐색
