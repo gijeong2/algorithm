@@ -49,4 +49,4 @@ queue.enqueue(4);
 queue.dequeue();
 queue.enqueue(5);
 queue.enqueue(6);
-queue.peek();
+console.log(queue.peek());
