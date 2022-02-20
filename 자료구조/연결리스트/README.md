@@ -5,12 +5,13 @@
 * 각 요소들은 메모리상에 연속적으로 위치하고 있지는 않음
 
 #### 종류
-* Singly Linked List(단일 연결 리스트): Head에서 Tail까지 단방향으로 이어지는 연결리스트
+* Singly Linked List: Head에서 Tail까지 단방향으로 이어지는 연결리스트
 * Doubly Linked List: 양방향으로 이어지는 연결리스트
 * Circular Linked List: Tail이 Head로 연결되는 연결리스트
 #### 시간 복잡도
 * 탐색: O(n)
 * 추가: O(1)
 * 제거: O(1)
+* 원하는 위치 추가, 삭제: O(n + 1) 
 
 
