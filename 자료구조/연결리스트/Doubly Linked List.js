@@ -27,11 +27,12 @@ class LinkedList {
     }
     remove(value) {
         let node = this.head;
-        while (node.next.value !== value) {
+        while (node.value !== value) {
             node = node.next;
         }
         if (node.next !== null) {
-            node.next = node.next.next
+           node.prev.next = node.next;
+           node.next.prev = node.prev;
         }
     }
     search(value) {
@@ -54,9 +55,13 @@ class LinkedList {
 
 const linkedList = new LinkedList();
 linkedList.append(1)
-linkedList.append(2)
-linkedList.append(3)
-linkedList.remove(2)
-linkedList.append(4)
-linkedList.append(5)
 linkedList.display()
+linkedList.append(2)
+linkedList.display()
+linkedList.append(3)
+linkedList.display()
+linkedList.remove(2)
+linkedList.display()
+linkedList.append(4)
+linkedList.display()
+linkedList.append(5)
